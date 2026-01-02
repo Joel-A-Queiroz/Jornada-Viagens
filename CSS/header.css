@@ -15,6 +15,14 @@ header {
   margin: 30px 35px;
 }
 
+.logo-mobile {
+  display: block;
+}
+
+.img-desktop {
+  display: none;
+}
+
 .navigation-menu {
   margin: 55px 48px;
 }
@@ -46,6 +54,10 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
+  header {
+    padding: 38px 30px;
+  }
+
   .navigation-menu {
     margin-top: 0px;
     width: 467px;
@@ -69,6 +81,18 @@ nav {
   .navigation-menu nav {
     display: block;
     margin-top: 28px;
-    
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .img-desktop {
+    display: block;
+  }
+  .img-mobile {
+    display: none;
+  }
+}
+
+.navigation-menu a:hover {
+  color: var(--primary-color);
 }
