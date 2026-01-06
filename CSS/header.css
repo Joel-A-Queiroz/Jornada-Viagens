@@ -78,3 +78,15 @@ nav {
 .navigation-menu ul li {
   margin: 28px;
 }
+
+@media screen and (min-width: 1366px) {
+  header {
+    padding: 38px 113px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  header {
+    padding: 38px 160px;
+  }
+}
