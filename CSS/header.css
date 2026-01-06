@@ -85,6 +85,15 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
+  header {
+    padding: 38px 113px;
+  }
+
+  .logo {
+    width: 260px;
+    height: 64px;
+  }
+
   .img-desktop {
     display: block;
   }
@@ -95,4 +104,16 @@ nav {
 
 .navigation-menu a:hover {
   color: var(--primary-color);
+}
+
+@media screen and (min-width: 1366px) {
+  header {
+    padding: 38px 113px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  header {
+    padding: 38px 160px;
+  }
 }
