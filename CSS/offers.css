@@ -14,7 +14,6 @@
   box-sizing: border-box;
   border-radius: 16px;
   text-align: center;
-  margin-bottom: 64px;
 }
 
 .offers-cards .card header {
@@ -98,7 +97,7 @@
 
 @media screen and (min-width: 1366px) {
   .offers-cards .card {
-    width: 588px;
+    width: 470px;
     height: 388px;
   }
 }
