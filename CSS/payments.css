@@ -8,10 +8,6 @@
 }
 
 .payments .content-container {
-  display: flex;
-}
-
-.payments .content-container {
 }
 .image-gallery .image-first {
   background-image: url(../IMG/bag-mob.png);
@@ -62,5 +58,29 @@
     background-image: url(../IMG/pessoas-tablet.png);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payments .content-container {
+    display: flex;
+  }
+
+  .payments .content-container {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    justify-content: space-between;
+  }
+
+  .payments .content-container .content-text {
+    width: 360px;
+  }
+
+  .payments .content-container .image-gallery {
+    width: 790px;
   }
 }
