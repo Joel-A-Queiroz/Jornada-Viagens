@@ -62,6 +62,11 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .payments .content-container .image-gallery {
+    width: 790px;
+    margin: 0;
+  }
+
   .payments .content-container {
     display: flex;
   }
@@ -82,5 +87,6 @@
 
   .payments .content-container .image-gallery {
     width: 790px;
+    margin: 0;
   }
 }
