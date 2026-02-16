@@ -7,54 +7,40 @@
   width: 100%;
 }
 
-.payments .content-container {
-}
-.image-gallery .image-first {
+.payments .payments-container .image-gallery .image-first {
   background-image: url(../IMG/bag-mob.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.payments .content-container {
-}
-.image-gallery .image-second {
+.payments .payments-container .image-gallery .image-second {
   background-image: url(../IMG/passport-mob.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.payments .content-container {
-}
-.image-gallery .image-thirdy {
+.payments .payments-container .image-gallery .image-thirdy {
   background-image: url(../IMG/pessoas-mob.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.payments .content-container {
-}
-.image-gallery .colspan-2 {
+.payments .payments-container .image-gallery .colspan-2 {
   grid-column: span 2;
 }
 
 @media screen and (min-width: 768px) {
-  .payments .content-container {
-  }
-  .image-gallery .image-first {
+  .payments .payments-container .image-gallery .image-first {
     background-image: url(../IMG/bag-tablet.png);
   }
 
-  .payments .content-container {
-  }
-  .image-gallery .image-second {
+  .payments .payments-container .image-gallery .image-second {
     background-image: url(../IMG/Passport-tablet.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-  .payments .content-container {
-  }
-  .image-gallery .image-thirdy {
+  .payments .payments-container .image-gallery .image-thirdy {
     background-image: url(../IMG/pessoas-tablet.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,30 +48,30 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .payments .content-container .image-gallery {
+  .payments .payments-container .image-gallery {
     width: 790px;
     margin: 0;
   }
 
-  .payments .content-container {
+  .payments .payments-container {
     display: flex;
   }
 
-  .payments .content-container {
+  .payments .payments-container {
     justify-content: space-between;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .payments .content-container {
+  .payments .payments-container {
     justify-content: space-between;
   }
 
-  .payments .content-container .content-text {
+  .payments .payments-container .content-text {
     width: 360px;
   }
 
-  .payments .content-container .image-gallery {
+  .payments .payments-container .image-gallery {
     width: 790px;
     margin: 0;
   }
