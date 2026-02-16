@@ -124,6 +124,17 @@ section.hero {
   }
 }
 
+@media screen and (min-width: 1366px) {
+  .bottom:hover {
+    background-color: var(--primary-color);
+  }
+
+  section {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   section {
     width: 1200px;
