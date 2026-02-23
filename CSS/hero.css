@@ -1,7 +1,16 @@
-.hero-img {
+.hero-img,
+.bottom-hero .hero-img {
   height: 400px;
   width: 100%;
+}
+
+.hero .hero-img {
   background: url(../IMG/hero-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.bottom-hero .hero-img {
+  background: url(../IMG/Imagem\ pré\ rodapé\ 1.png) no-repeat;
   background-size: cover;
 }
 
@@ -14,12 +23,23 @@
   line-height: 1.5;
 }
 
+.bottom-hero {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
     width: 100%;
     background: url(../IMG/Hero-tablet.png) no-repeat;
     background-size: cover;
+  }
+
+  .bottom-hero .hero-img {
+    height: 400px;
+    background: url(../IMG/Imagem\ pré\ rodapé\ 1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   .hero h2 {
@@ -34,6 +54,12 @@
     height: 620px;
     width: 100%;
     background-image: url(../IMG/hero-desk-nova.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img {
+    height: 600px;
+    background: url(../IMG/Imagem\ pré\ rodapé\ 1.png) no-repeat;
     background-size: cover;
   }
 
