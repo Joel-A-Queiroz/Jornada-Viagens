@@ -29,6 +29,19 @@
   grid-column: span 2;
 }
 
+/* Pacote viagens */
+.travel-packages .payments .image-gallery .image-first {
+  background-image: url(../IMG/Pacote-viagens/travel_viagens_esquerda\ \(2\).png);
+}
+
+.travel-packages .payments .image-gallery .image-second {
+  background-image: url(../IMG/Pacote-viagens/travel_viagens_direita.png);
+}
+
+.travel-packages .payments .image-gallery .image-thirdy.colspan-2 {
+  background-image: url(../IMG/Pacote-viagens/travel_viagens_abaixo.png)
+}
+
 @media screen and (min-width: 768px) {
   .payments .payments-container .image-gallery .image-first {
     background-image: url(../IMG/bag-tablet.png);

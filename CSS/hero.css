@@ -80,6 +80,16 @@
   line-height: 32px;
 }
 
+.travel-packages .payments h2 {
+  font-size: 32px;
+}
+
+.travel-packages .payments h3,
+p {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
