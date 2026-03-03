@@ -63,6 +63,16 @@
   margin: 18px auto 32px;
 }
 
+.travel-packages.destinations hr {
+  margin-top: -85px;
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin-top: -70px;
+  margin-bottom: 32px;
+}
+
 .travel-packages .hero-content p {
   font-size: 20px;
   color: var(--text-secondary-color);
