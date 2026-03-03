@@ -65,6 +65,17 @@ section.hero {
   margin-top: 64px;
 }
 
+
+/* Pacote viagem */
+.travel-packages .cards-travel h2 {
+  font-size: 32px;
+}
+
+
+
+
+/* Pacote viagem */
+
 .section-tittle hr {
   width: 180px;
   height: 4px;
