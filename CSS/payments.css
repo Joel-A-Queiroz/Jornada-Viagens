@@ -5,6 +5,7 @@
   height: 460px;
   margin-top: 24px;
   width: 100%;
+  margin-top: 24px;
 }
 
 .payments .payments-container .image-gallery .image-first {
@@ -39,7 +40,7 @@
 }
 
 .travel-packages .payments .image-gallery .image-thirdy.colspan-2 {
-  background-image: url(../IMG/Pacote-viagens/travel_viagens_abaixo.png)
+  background-image: url(../IMG/Pacote-viagens/travel_viagens_abaixo.png);
 }
 
 @media screen and (min-width: 768px) {

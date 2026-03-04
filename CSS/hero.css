@@ -60,7 +60,7 @@
   height: 4px;
   background-color: var(--secondary-color);
   border: none;
-  margin: 18px auto 32px;
+  margin: 18px 2px 32px;
 }
 
 .travel-packages.destinations hr {
@@ -84,10 +84,18 @@
   font-size: 32px;
 }
 
-.travel-packages .payments h3,
-p {
-  font-size: 28px;
-  margin-bottom: 10px;
+.travel-packages .payments h3 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.travel-packages .text-payments p {
+  margin-bottom: 24px;
+}
+
+.travel-packages .payments p {
+  font-size: 26px;
+  margin-bottom: 24px;
 }
 
 @media screen and (min-width: 768px) {
