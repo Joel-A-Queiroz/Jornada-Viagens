@@ -28,6 +28,12 @@
   text-align: center;
 }
 
+/* Pagina Viagens */
+
+.travel-packages .main-footer {
+  margin-top: -90px;
+}
+
 @media screen and (min-width: 768px) {
   .main-footer {
     padding: 32px 68px;
